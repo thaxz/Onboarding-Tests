@@ -14,6 +14,8 @@
 		E9A697382AA13A1200CAEF1B /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697372AA13A1200CAEF1B /* OnboardingItem.swift */; };
 		E9A6973A2AA13A6600CAEF1B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697392AA13A6600CAEF1B /* OnboardingView.swift */; };
 		E9A6973C2AA13B9900CAEF1B /* OnboardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */; };
+		E9A6973E2AA14CA600CAEF1B /* OnboardingContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9A6973D2AA14CA600CAEF1B /* OnboardingContent.plist */; };
+		E9A697402AA14DAF00CAEF1B /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E9A697372AA13A1200CAEF1B /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		E9A697392AA13A6600CAEF1B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenView.swift; sourceTree = "<group>"; };
+		E9A6973D2AA14CA600CAEF1B /* OnboardingContent.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OnboardingContent.plist; sourceTree = "<group>"; };
+		E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				E9A697372AA13A1200CAEF1B /* OnboardingItem.swift */,
 				E9A697392AA13A6600CAEF1B /* OnboardingView.swift */,
 				E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */,
+				E9A6973D2AA14CA600CAEF1B /* OnboardingContent.plist */,
+				E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A697302AA138B400CAEF1B /* Preview Assets.xcassets in Resources */,
+				E9A6973E2AA14CA600CAEF1B /* OnboardingContent.plist in Resources */,
 				E9A6972D2AA138B400CAEF1B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +165,7 @@
 				E9A6973A2AA13A6600CAEF1B /* OnboardingView.swift in Sources */,
 				E9A697292AA138B200CAEF1B /* OnboardingTestsApp.swift in Sources */,
 				E9A697382AA13A1200CAEF1B /* OnboardingItem.swift in Sources */,
+				E9A697402AA14DAF00CAEF1B /* PListManager.swift in Sources */,
 				E9A6973C2AA13B9900CAEF1B /* OnboardingScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

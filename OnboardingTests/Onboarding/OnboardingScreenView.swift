@@ -15,6 +15,7 @@ struct OnboardingScreenView: View {
             OnboardingView(item: OnboardingItem(title: "Dummy", content: "Dummy Content", sfSymbol: "heart.fill")).tag(2)
         }
         .tabViewStyle(PageTabViewStyle())
+        .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }
 }
 
