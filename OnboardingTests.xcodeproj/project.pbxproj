@@ -16,6 +16,7 @@
 		E9A6973C2AA13B9900CAEF1B /* OnboardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */; };
 		E9A6973E2AA14CA600CAEF1B /* OnboardingContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9A6973D2AA14CA600CAEF1B /* OnboardingContent.plist */; };
 		E9A697402AA14DAF00CAEF1B /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */; };
+		E9A697422AA14F8D00CAEF1B /* OnboardingContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697412AA14F8D00CAEF1B /* OnboardingContentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenView.swift; sourceTree = "<group>"; };
 		E9A6973D2AA14CA600CAEF1B /* OnboardingContent.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OnboardingContent.plist; sourceTree = "<group>"; };
 		E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
+		E9A697412AA14F8D00CAEF1B /* OnboardingContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */,
 				E9A6973D2AA14CA600CAEF1B /* OnboardingContent.plist */,
 				E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */,
+				E9A697412AA14F8D00CAEF1B /* OnboardingContentManager.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				E9A697292AA138B200CAEF1B /* OnboardingTestsApp.swift in Sources */,
 				E9A697382AA13A1200CAEF1B /* OnboardingItem.swift in Sources */,
 				E9A697402AA14DAF00CAEF1B /* PListManager.swift in Sources */,
+				E9A697422AA14F8D00CAEF1B /* OnboardingContentManager.swift in Sources */,
 				E9A6973C2AA13B9900CAEF1B /* OnboardingScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,12 @@ protocol PListManager {
 struct PListManagerImpl: PListManager{
     
     func convert(plist fileName: String) -> [OnboardingItem] {
-        return []
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "plist"),
+              let data = try? Data(contentsOf: url),
+              let items = try? PropertyListDecoder().decode([OnboardingItem].self, from: data) else {
+            return []
+        }
+        return items
     }
     
     
