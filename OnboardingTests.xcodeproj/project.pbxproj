@@ -13,6 +13,7 @@
 		E9A697302AA138B400CAEF1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A6972F2AA138B400CAEF1B /* Preview Assets.xcassets */; };
 		E9A697382AA13A1200CAEF1B /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697372AA13A1200CAEF1B /* OnboardingItem.swift */; };
 		E9A6973A2AA13A6600CAEF1B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697392AA13A6600CAEF1B /* OnboardingView.swift */; };
+		E9A6973C2AA13B9900CAEF1B /* OnboardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E9A6972F2AA138B400CAEF1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9A697372AA13A1200CAEF1B /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		E9A697392AA13A6600CAEF1B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				E9A697372AA13A1200CAEF1B /* OnboardingItem.swift */,
 				E9A697392AA13A6600CAEF1B /* OnboardingView.swift */,
+				E9A6973B2AA13B9900CAEF1B /* OnboardingScreenView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				E9A6973A2AA13A6600CAEF1B /* OnboardingView.swift in Sources */,
 				E9A697292AA138B200CAEF1B /* OnboardingTestsApp.swift in Sources */,
 				E9A697382AA13A1200CAEF1B /* OnboardingItem.swift in Sources */,
+				E9A6973C2AA13B9900CAEF1B /* OnboardingScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

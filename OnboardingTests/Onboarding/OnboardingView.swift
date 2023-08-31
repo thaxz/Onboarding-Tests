@@ -27,7 +27,7 @@ struct OnboardingView: View {
                 .foregroundColor(.gray)
             
         }
-        .padding(.bottom, 15)
+        .padding(.bottom, 150)
     }
 }
 
