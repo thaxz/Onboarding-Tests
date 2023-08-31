@@ -9,6 +9,16 @@ import SwiftUI
 
 struct OnboardingView: View {
     let item: OnboardingItem
+    
+    let limit: Int
+    @Binding var index: Int
+    
+    init(item: OnboardingItem, limit: Int, index: Binding<Int>) {
+        self.item = item
+        self.limit = limit
+        self._index = index
+    }
+    
     var body: some View {
         VStack {
             Spacer()
@@ -33,6 +43,9 @@ struct OnboardingView: View {
 
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView(item: OnboardingItem(title: "Dummy", content: "Dummy Content", sfSymbol: "heart.fill"))
+        OnboardingView(item: OnboardingItem(title: "Dummy",
+                                            content: "Dummy Content", sfSymbol: "heart"),
+                       limit: 0, index: .constant(0)
+        )
     }
 }

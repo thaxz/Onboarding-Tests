@@ -26,10 +26,7 @@ struct ContentView: View {
                     Text("Settings")
                 }
         }
-        .onAppear{
-            let plistManager = PListManagerImpl()
-            let onboardingManager = OnboardingContentManagerImpl(manager: plistManager)
-        }
+        
     }
 }
 
