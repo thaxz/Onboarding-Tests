@@ -1,14 +1,16 @@
 //
-//  PListTests.swift
+//  OnboardingTests.swift
 //  OnboardingTests-UnitTesting
 //
-//  Created by thaxz on 31/08/23.
+//  Created by thaxz on 01/09/23.
 //
 
+import Foundation
 import XCTest
+
 @testable import OnboardingTests
 
-class PlistTests: XCTestCase {
+class OnboardingTests: XCTestCase {
     
     // SUP: System Under Tests
     private var manager: PListManagerImpl!
@@ -22,12 +24,10 @@ class PlistTests: XCTestCase {
         manager = nil
     }
     
-    func test_succefull_decoding_onboarding_plist(){
-        XCTAssertEqual(manager.convert(plist: "OnboardingContent").count, 4)
+    func test_succefull_onboarding_decoding(){
+        let contentManager = OnboardingContentManagerImpl(manager: manager)
+        XCTAssertEqual(contentManager.items.count, 4)
     }
     
-    func test_unsuccefull_decoding_onboarding_plist(){
-        XCTAssertEqual(manager.convert(plist: "TaylorSwfift").count, 0)
-    }
     
 }

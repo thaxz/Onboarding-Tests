@@ -18,6 +18,7 @@
 		E9A697402AA14DAF00CAEF1B /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6973F2AA14DAF00CAEF1B /* PListManager.swift */; };
 		E9A697422AA14F8D00CAEF1B /* OnboardingContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697412AA14F8D00CAEF1B /* OnboardingContentManager.swift */; };
 		E9A697522AA159EF00CAEF1B /* PListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697512AA159EF00CAEF1B /* PListTests.swift */; };
+		E9D407EA2AA27E8300C1C972 /* OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D407E92AA27E8300C1C972 /* OnboardingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E9A697412AA14F8D00CAEF1B /* OnboardingContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentManager.swift; sourceTree = "<group>"; };
 		E9A697472AA1599D00CAEF1B /* OnboardingTests-UnitTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnboardingTests-UnitTesting.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A697512AA159EF00CAEF1B /* PListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListTests.swift; sourceTree = "<group>"; };
+		E9D407E92AA27E8300C1C972 /* OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		E9A697482AA1599D00CAEF1B /* OnboardingTests-UnitTesting */ = {
 			isa = PBXGroup;
 			children = (
+				E9D407E82AA27E6F00C1C972 /* Onboarding */,
 				E9A697502AA159CD00CAEF1B /* PList */,
 			);
 			path = "OnboardingTests-UnitTesting";
@@ -129,6 +132,14 @@
 				E9A697512AA159EF00CAEF1B /* PListTests.swift */,
 			);
 			path = PList;
+			sourceTree = "<group>";
+		};
+		E9D407E82AA27E6F00C1C972 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E9D407E92AA27E8300C1C972 /* OnboardingTests.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D407EA2AA27E8300C1C972 /* OnboardingTests.swift in Sources */,
 				E9A697522AA159EF00CAEF1B /* PListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
