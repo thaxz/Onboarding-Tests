@@ -19,6 +19,7 @@
 		E9A697422AA14F8D00CAEF1B /* OnboardingContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697412AA14F8D00CAEF1B /* OnboardingContentManager.swift */; };
 		E9A697522AA159EF00CAEF1B /* PListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A697512AA159EF00CAEF1B /* PListTests.swift */; };
 		E9D407EA2AA27E8300C1C972 /* OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D407E92AA27E8300C1C972 /* OnboardingTests.swift */; };
+		E9D407EC2AA27FAF00C1C972 /* OnboardingMockImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D407EB2AA27FAF00C1C972 /* OnboardingMockImp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E9A697472AA1599D00CAEF1B /* OnboardingTests-UnitTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnboardingTests-UnitTesting.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A697512AA159EF00CAEF1B /* PListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListTests.swift; sourceTree = "<group>"; };
 		E9D407E92AA27E8300C1C972 /* OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTests.swift; sourceTree = "<group>"; };
+		E9D407EB2AA27FAF00C1C972 /* OnboardingMockImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMockImp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D407E92AA27E8300C1C972 /* OnboardingTests.swift */,
+				E9D407EB2AA27FAF00C1C972 /* OnboardingMockImp.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D407EA2AA27E8300C1C972 /* OnboardingTests.swift in Sources */,
+				E9D407EC2AA27FAF00C1C972 /* OnboardingMockImp.swift in Sources */,
 				E9A697522AA159EF00CAEF1B /* PListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

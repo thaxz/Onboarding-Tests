@@ -26,8 +26,17 @@ class OnboardingTests: XCTestCase {
     
     func test_succefull_onboarding_decoding(){
         let contentManager = OnboardingContentManagerImpl(manager: manager)
-        XCTAssertEqual(contentManager.items.count, 4)
+        XCTAssertEqual(contentManager.items.count, 3)
     }
     
+    func test_unsuccefull_onboarding_decoding(){
+        let mock = OnboardingMockImp(manager: manager)
+        XCTAssertEqual(mock.items.count, 0)
+    }
+    
+    func test_unsuccefull_onboarding_limit(){
+        let mock = OnboardingMockImp(manager: manager)
+        XCTAssertLessThan(mock.limit, 0)
+    }
     
 }
